@@ -1,0 +1,501 @@
+:root{
+
+    --principal:#B5B5B5;
+    --logo:#FFC300;
+    --letter:#000000;
+    --button:#FFC300;
+    --parrafo:#A2A095;
+    --lettersecond:#CA4747;
+    --footer:#404040;
+    --iconos:#ffffff;
+
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-size: 16px;
+    background-color: var(--iconos);
+    font-family: 'BenchNine';
+}
+
+.principal{
+    background-color: var(--principal);
+}
+/*--------------------- header y navegador*---------------------------*/
+
+.encabezado{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 15px;
+    justify-content: space-between;
+    background-color: var(--footer)
+ 
+}
+.titulopagina{
+    font-size: 3rem;
+    color: var(--iconos);
+    font-family: 'BenchNine';;
+    display: contents;
+    margin: 0 auto;
+    font-size: 100;
+    
+}
+
+.tituloprincipal{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    display: inline-block;
+    margin-block-start: 0;
+    margin-block-end:0;
+}
+
+.titulopagina2{
+    font-size: 3rem;
+    color: var(--iconos);
+    font-family: 'BenchNine';;
+    display: contents;
+    margin: 0 auto;
+    font-size: 100;
+}
+
+
+
+form.buscador{
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+    display: block;
+    border-radius:180px
+    
+
+}
+.icon {
+    width: 30px;
+    height:30px;
+    border-radius:160px;
+    border: 2px solid var(--logo);
+    background-color: var(--logo);
+}
+
+
+.menu{   
+    font-size: 3rem;
+    text-align: center;
+    background-color: var(--principal);
+    margin-top: 10px;
+    margin-left: auto;
+    display:flex;
+    justify-content: space-around;
+  
+   
+}
+
+
+/* principal page*/
+.home{
+    color: var(--iconos);
+    text-decoration: none;
+}
+
+.about{
+    color: var(--iconos);
+    text-decoration: none;
+}
+
+.destination{
+    color: var(--iconos);
+    text-decoration: none;
+}
+
+.contact{
+    color: var(--iconos);
+    text-decoration: none;
+}
+
+
+/*rest pages*/
+
+.menua{   
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+.homea{
+    color: var(--letter);
+    text-decoration: none;
+}
+
+.abouta{
+    color: var(--letter);
+    text-decoration: none;
+}
+
+.destinationa{
+    color: var(--letter);
+    text-decoration: none;
+}
+
+.contacta{
+    color: var(--letter);
+    text-decoration: none;
+}
+
+
+/* --------------------- body y parte del cuerpo de la pagina web--------------------- */
+
+.hero{
+  
+    background-size: cover;
+    
+}
+
+.contenido-hero{
+    flex-direction: column;
+    align-items:flex-start;
+   
+}
+
+
+
+.simbolo{
+    text-align: right;
+    position: fixed;
+}
+
+.tituloafter{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Monoton', cursive;;
+    font-size: 7rem;
+    color: var(--lettersecond);
+    text-align: center;
+  
+}
+
+
+  /*----- media querie------------------------*/
+
+ 
+.imagenes{
+text-align: center;
+margin-right: 20px;
+margin-left: 20px;
+flex-wrap: nowrap ;
+  
+}
+
+.a1{
+    width: 250px;
+    height: 250px;
+    border-radius:160px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+
+.navfin{
+    background-color: var(--footer);
+    width: 100%;
+    height: 150px;
+    margin-top: 60px;
+
+}
+
+.navend{
+    background-color: var(--button);
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+.copyright{
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    
+}
+
+.redes{
+    text-align: center;
+    font-family: var(--button);
+}
+
+.face{
+margin-top: 25px;
+
+}
+h3.netwok{
+    font-family: var(--button);
+}
+
+
+/*------------------PAGE ABOUT ME---------------------------------*/
+
+.aboutme{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Monoton', cursive;;
+    font-size: 10rem;
+    color: var(--lettersecond);
+    text-align: center;
+}
+@media (max-width: 1023.98px){
+    .aboutme {
+        font-size: 5rem;
+    }
+}
+
+.testimonio{
+    margin-right: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.posicion{
+    text-align: center;
+}
+
+.moscualex{
+
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:160px;
+   
+}
+
+.cuadrado{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+    
+
+
+/*------------------destinations------------------*/
+
+.destinationword{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Monoton', cursive;
+    font-size: 10rem;
+    color: var(--lettersecond);
+    text-align: center;
+}
+@media (max-width: 1023.98px){
+    .destinationword {
+        font-size: 4rem;
+    }
+}
+
+.city{
+    font-family: 'Monoton', cursive;
+    color: var(--lettersecond);
+    font-size: 2rem;
+}
+
+.pcity{
+
+    text-align:justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.imgcity{
+    width: 100px;
+    height: 100px;
+    margin-left:0;
+    margin-right: 0;
+    border-radius:160px;
+
+}
+.margen{
+    
+   display: inline-flex;
+}
+
+/*------------CONTACT ME--------------------*/
+
+.contactme{
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Monoton', cursive;
+    font-size: 10rem;
+    color: var(--lettersecond);
+    text-align: center;
+}
+@media (max-width: 1023.98px){
+    .contactme {
+        font-size: 4rem;
+    }
+}
+
+.cuadricula{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.callme{
+    font-family: 'Monoton', cursive;
+    color: var(--lettersecond);
+    font-size: 2rem;
+}
+
+.encuesta{
+    font-size: 2rem;
+    text-align:center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.send{
+    size: 3rem;
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*--------------------login---------------------*/
+
+.mymenu{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background-color:var(--footer);
+    text-align: center;
+
+}
+
+.userimage{
+    width: 100px;
+    height: 100px;
+    border-radius:160px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+
+}
+
+.botonesuser{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.columnauser{
+    font-size: 2rem;
+    text-align: justify;
+    margin-top: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-decoration: none;
+
+    
+}
+/*--------admin-----------*/
+.privetadmin{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--letter);
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Monoton', cursive;
+    font-size: 5rem;
+}
+
+
+.bodyadmin{
+    padding-left: 20%;
+    margin-top: 0px;
+    background-color: #ffffff;
+    text-align: center;
+}
+.body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #ffffff;
+}
+.adminuser{
+    font-size: 2rem;
+    text-align: left;
+    color: var(--button);
+    margin-right: 20px;
+}
+.tabla{
+    margin-left: 20%;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 2rem;
+    background-color: var(--button);
+  
+
+}
+
+.bodytable{
+    background-color: #ffffff;
+    padding: 2rem;
+
+}
+.texto{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.botonu1{
+   
+    text-decoration: none;
+    background-color:var(--lettersecond);
+    color: #ffffff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.botonu2{
+   
+    text-decoration: none;
+    background-color:var(--footer);
+    color:var(--button);
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}

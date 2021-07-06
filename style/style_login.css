@@ -1,0 +1,125 @@
+
+:root{
+    --principal:#B5B5B5;
+    --logo:#FFC300;
+    --letter:#000000;
+    --button:#FFC300;
+    --parrafo:#A2A095;
+    --lettersecond:#CA4747;
+    --footer:#404040;
+    --iconos:#ffffff;
+
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+  body{
+    
+    background-color: var(--iconos);
+    font-family: 'BenchNine';
+}
+
+.principal{
+    background-color: var(--principal);
+}
+
+.nombrepagina{
+    font-size: 40px;
+}
+
+
+.icon{
+
+    border-radius:160px;
+    background-color: var(--button);
+    
+}
+.cuadricula{
+   align-items: center;
+}
+.columna2{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+.letra{
+    text-align: center;
+}
+
+.logincuadrado{
+    text-align: center;
+}
+
+.type{
+    
+   
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    height: 2rem;
+     width: 20rem;
+}
+.typebuttom{
+    border-radius: 5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    width: 21rem;
+}
+
+.botonregistro{
+    background-color:var(--logo) ;
+}
+
+.textoregistro{
+    font-size: 1.5rem;
+}
+.colorerror{
+    color: var(--lettersecond); 
+    font-size: 1.5rem;  
+}
+
+
+/*footer  login*/
+
+.navfin{
+    background-color: var(--footer);
+    width: 100%;
+    height: 150px;
+    margin-top: 60px;
+
+}
+
+.navend{
+    background-color: var(--button);
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+.copyright{
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    
+}
+
+.redes{
+    text-align: center;
+    font-family: var(--button);
+}
+
+.face{
+margin-top: 25px;
+
+}
+h3.netwok{
+    font-family: var(--button);
+}
